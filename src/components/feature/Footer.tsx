@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
+
+  const date = new Date().getFullYear();
+  
   return (
     <footer className="bg-black text-white">
       <div className="container mx-auto px-4 py-12">
@@ -77,7 +80,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Supreme Steam. All rights reserved.
+            © {date} Supreme Steam. All rights reserved.
           </p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <div>
