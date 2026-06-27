@@ -172,7 +172,7 @@ export default defineConfig({
     host: '0.0.0.0',
     proxy: {
       '/api': {
-        target: 'http://api.supremesteaming.com',
+        target: 'https://api.supremesteaming.com',
         changeOrigin: true,
       },
     },
